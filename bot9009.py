@@ -25,8 +25,8 @@ def _int_env(name, default=0):
         return default
 
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = _int_env("ADMIN_ID")
+BOT_TOKEN = "8658716750:AAH4yUyAQYXoiTGG6PwR7juaw0c4-C3uUcY"
+ADMIN_ID =8756103290
 CARD = os.getenv("CARD", "8600 0000 0000 0000")  # karta qo'shilmagan bo'lsa shu ko'rinadi
 DB_PATH = os.getenv("DB_PATH", "mob.db")
 PERSIST_PATH = os.getenv("PERSIST_PATH", "persist.pkl")
