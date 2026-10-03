@@ -1,0 +1,9 @@
+.env
+*.db
+*.db-wal
+*.db-shm
+persist.pkl
+__pycache__/
+*.pyc
+venv/
+.venv/
